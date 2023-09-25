@@ -1,0 +1,50 @@
+body {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+header {
+    background-color: ghostwhite;
+    width: 100%;
+    text-align: center;
+}
+.papa {
+    content: "";
+    background-color: aquamarine;
+    display: flex;
+    width: 60vw;
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 6px 0px 6px
+
+}
+.div1t {
+    content: "";
+    border: 1px solid black;
+
+}
+.div1n {
+    content: "";
+    border: 1px solid black;
+
+}
+.div2foto {
+    content: "";
+    border: 1px solid black;
+    height: 100%;
+
+}
+.div3des {
+    content: "";
+    border: 1px solid black;
+    margin: 0px 10px 0px 10px;
+
+}
