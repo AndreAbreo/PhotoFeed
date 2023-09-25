@@ -6,17 +6,19 @@ body {
     align-content: center;
 }
 header {
-    background-color: ghostwhite;
+    background-color: white;
     width: 100%;
     text-align: center;
 }
-.papa {
+img {
+    max-width: 100%;
+}
+.padre {
     content: "";
-    background-color: aquamarine;
+    background-color: white;
     display: flex;
     width: 60vw;
-    height: 400px;
-    border: 1px solid black;
+    border: 1px solid grey;
     margin-top: 50px;
     flex-direction: column;
 }
@@ -24,27 +26,19 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0px 6px 0px 6px
-
 }
 .div1t {
     content: "";
-    border: 1px solid black;
-
 }
 .div1n {
     content: "";
-    border: 1px solid black;
-
 }
 .div2foto {
     content: "";
-    border: 1px solid black;
-    height: 100%;
-
+    width: 100%;
+    overflow: hidden;
 }
 .div3des {
     content: "";
-    border: 1px solid black;
     margin: 0px 10px 0px 10px;
-
 }
